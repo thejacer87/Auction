@@ -1,0 +1,7 @@
+body { 
+    background-image: url('images/jbay.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    background-size: 275px 120px  
+}

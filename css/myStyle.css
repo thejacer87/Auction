@@ -1,0 +1,201 @@
+*{
+	margin: 0 auto 0 auto;
+	text-align:left;
+}
+html {
+        height: 100%;
+        background-image: url('images/jbay.png'), linear-gradient(
+            to bottom, #7D1DFF, #3F0D82 35px, #000000 100px, #CCBBCC 100px, #EEDDEE 400px,
+            #FFFFFF 100% );
+        background-repeat: no-repeat, repeat-x;
+        background-origin: border-box , content-box;
+        background-position: 100% 20%;
+        background-size: 375px auto, cover;
+}
+body { 
+        margin:0;
+	padding:0;
+	text-align:left;
+	font-size:13px;
+	font-family:arial, helvetica, sans-serif;
+	color:#000000;
+}
+
+a{
+	text-decoration:none;
+}
+
+table,tr,td,th{
+	margin:0;
+        border: 5px groove #6D0DEF;
+        border-collapse: collapse;
+}
+
+table{
+	padding:10px 0;
+        width: 100%;
+}
+
+th{
+	text-align:center;
+	padding: 6px 0;
+        text-shadow: 1px 1px 10px #FFFFFF;
+        background-image: linear-gradient(
+            to right, #DAA520, #FFD700 10%, #F0E68C 35%,
+            #FFFFFF 45%, #FFFFFF 55%, #F0E68C 65%, #FFD700 90%, #DAA520);
+}
+
+td{
+	padding: 6px 20px;
+}
+
+h2{
+        margin-top: 10px;
+	padding-bottom:10px;
+}
+
+h3{
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 0;
+	color:#054dbc;
+}
+
+h4{
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom:7px;
+	color:#054dbc;
+}
+
+p{
+	margin:10px 0;
+}
+
+label{
+	display:inline-block;
+	width:150px;
+}
+
+/* Main styles */
+.container{
+	width:960px;
+	overflow:auto;
+}
+
+header{
+	width:960px;
+	height:85px;
+}
+
+header h1{
+	color:#7D1DFF;
+	font-size:55px;
+	padding:10px 0 0 20px;
+        -webkit-text-stroke:2px white;
+	/*text-shadow:3px 0px 25px white;*/
+}
+
+#devNotes{    
+	color:#3F0D82;
+	font-size:33px;
+        font-weight: bold;
+        text-shadow: -1px -1px 200px gold;
+}
+
+#login{
+        width:960px;
+        padding-top:20px;
+}
+
+#register{
+        width:960px;
+        padding-top:20px;
+}
+
+#notes{
+        width:960px;
+        border: 5px solid #3F0D82;
+        border-top-right-radius: 2em;
+        margin-top:50px;
+        padding: 5px;
+        box-shadow: 15px 10px 10px black;
+}
+
+#logout{
+        width: 50px;
+        text-decoration: underline;
+        color: #FFFFFF;
+        margin: 0px 20px;
+}
+
+#logout a:visited{
+        text-decoration: underline;
+        color: #F5D00E;
+}
+
+input[type=submit], button{
+        padding: 10px 15px;
+        background: #F5D00E;
+        color: #3F0D82;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        border: solid 1px #C0C0C0;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+}
+
+input[type=submit]:hover, button:hover {
+        background: #DB8A05;
+        border: solid 1px #CACACA;
+        text-decoration: none;
+}
+
+input[type=submit]:active, button:active {
+        -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+        box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+        background: #FDAC00;
+        border: solid 1px #B0B0B0;
+}
+
+#create {
+        margin: 25px auto;
+        padding: 15px 20px;
+        font-size: 30px;
+}
+
+#filter{
+        margin-top: 3px;
+        border: none;
+        background-color: #FFFFFF;
+        padding: 0 5px;
+        font-size: 25px;
+        outline: none;
+        width: 195px;
+}
+
+.dropdown{
+        width: 200px;
+        height: 37px;
+        border: solid 1px black;
+        background-color: #FFFFFF;
+        margin: 0;
+}
+
+#go{
+    position: relative;
+    top: -37px;
+    left: 225px;
+}
+
